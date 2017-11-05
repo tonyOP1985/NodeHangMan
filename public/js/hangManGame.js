@@ -116,8 +116,6 @@ function gameOverModal(word) {
 
 // runs hangman game
 function hangManMain() {
-    // var words =  ["mars"];
-    // var words = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto"];
     var words = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto", "sun", "star", "blackhole", "galaxy", "comet", "constellation", "moon", "asteroid", "universe", "astronaut", "nasa", "telescope", "satellite"];
     var incorrectGuesses = 0;
     var ranWord = selectRandomWord(words);
