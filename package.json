@@ -4,7 +4,10 @@
   "description": "Hangman Game with Node.js server",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "8.2.1"
   },
   "author": "Tony Oliver-Paull",
   "license": "ISC",
